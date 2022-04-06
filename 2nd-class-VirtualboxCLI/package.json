@@ -1,0 +1,14 @@
+{
+  "name": "js-virtualbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ian Vaernet",
+  "license": "ISC",
+  "dependencies": {
+    "virtualbox": "^1.1.2"
+  }
+}

@@ -1,0 +1,9 @@
+- name: Install NodeJs
+  hosts: 10.0.2.255
+  become: yes
+  become_user: root
+  tasks:
+    - name: Install NodeJs
+      package:
+        name: nodejs
+        state: present
